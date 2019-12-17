@@ -1,0 +1,13 @@
+// Specific CSS for your home-page
+// Defining a variable
+$gray: #F4F4F4;
+$spacer: 8px;
+
+body {
+  background: $gray; // Using this variable
+  font-family: Helvetica;
+}
+
+.btn {
+  padding: $spacer ($spacer * 3);
+}
